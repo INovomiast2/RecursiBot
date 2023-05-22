@@ -13,5 +13,5 @@ def load_config():
 
 # Save Prefix and Token
 data = load_config()
-prefix = data["Prefix"]
-token = data["Token"]
+prefix = data["Bot"]["prefix"]
+token = data["Bot"]["token"]

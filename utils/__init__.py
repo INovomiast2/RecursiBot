@@ -8,4 +8,4 @@ date = datetime.datetime.now()
 formatted_date = date.strftime("%Y-%m-%d %H:%M:%S")
 
 # Prints the date
-print(bold + black + formatted_date + blue, "INFO", reset + magenta, "   system.files", reset, "commands imported correctly")
+print(bold + black + formatted_date + blue, "INFO", reset + magenta, "   system.files", reset, "colors imported correctly")
